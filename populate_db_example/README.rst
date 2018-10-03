@@ -1,7 +1,7 @@
-Populous - *populate your database with god-like powers*
+populate_db_example - *populate your database*
 ========================================================
 
-Populous is a tool for fast and rich data generation. From a description
+populate_db_example is a tool for fast and rich data generation. From a description
 of your schema say how many objects you want, what they should look
 like, and populous will create them for you!
 
@@ -19,13 +19,13 @@ Documentation
 
 However, if you are very eager to try it, here is what you can do:
 
--  Install populous: ``pip install populous``
+-  Install populous: ``pip install populate_db_example``
 -  Have a PostgreSQL database at hand
 -  Find some blueprints (YAML files describing what you want to
    generate) or create some. This is the tricky part, but you can find
    some examples in the ``demo/blueprints/`` directory.
 -  Launch populous with those blueprints:
-   ``populous run postgres demo/blueprints/*.yml`` (you can pass your
+   ``populate_db_example run postgres demo/blueprints/*.yml`` (you can pass your
    postgres instance either via ``PG*`` environment variables or via
    arguments)
 -  Gaze at your freshly generated data via ``psql`` or any other tool!
